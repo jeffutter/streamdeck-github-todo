@@ -1,0 +1,40 @@
+{
+  "Actions": [
+    {
+      "Icon": "action/images/actionimage", 
+      "Name": "Github ToDo", 
+      "States": [
+        {
+          "Image": "action/images/action",
+          "TitleAlignment": "middle", 
+          "FontSize": "16"
+        }
+      ], 
+      "Tooltip": "Show Github PRs", 
+      "UUID": "com.jeffutter.githubtodo.action"
+    }
+  ], 
+  "SDKVersion": 2,
+  "Author": "Jeffery Utter", 
+  "CodePath": "index.html", 
+  "PropertyInspectorPath": "propertyinspector/index.html", 
+  "Description": "Github PR Todos", 
+  "Name": "Github ToDo", 
+  "Icon": "action/images/action", 
+  "URL": "https://www.elgato.com/en/gaming/stream-deck", 
+  "Version": "1.0.0",
+  "OS": [
+    {
+        "Platform": "mac", 
+        "MinimumVersion" : "10.11"
+    },
+    {
+        "Platform": "windows", 
+        "MinimumVersion" : "10"
+    }
+  ],
+  "Software": 
+    {
+        "MinimumVersion" : "4.1"
+  }
+}
